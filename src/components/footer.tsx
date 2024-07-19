@@ -13,22 +13,15 @@ const MadeWith = () => {
         href="https://react.dev/"
       >
         React
-      </a>
-      ,{" "}
+      </a>{" "}
+      and{" "}
       <a
         className="underline font-bold decoration-from-font	decoration-solid decoration-gray-300"
         href="https://tailwindcss.com/"
       >
-        TailwindCSS
+        Tailwind
       </a>
-      ,{" "}
-      <a
-        className="underline font-bold decoration-from-font decoration-solid	decoration-gray-300"
-        href="https://parceljs.org/"
-      >
-        Parcel
-      </a>{" "}
-      and deployed on{" "}
+      . Deployed on{" "}
       <a
         className="underline font-bold decoration-from-font	decoration-solid decoration-gray-300"
         href="https://pages.cloudflare.com/"
