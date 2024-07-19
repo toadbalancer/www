@@ -15,7 +15,7 @@ const MadeWith = () => {
       <a class="font-bold" href="https://tailwindcss.com/">
         TailwindCSS
       </a>
-      , and{" "}
+      ,{" "}
       <a class="font-bold" href="https://parceljs.org/">
         Parcel
       </a>{" "}
