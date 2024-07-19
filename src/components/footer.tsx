@@ -72,7 +72,6 @@ const BuildAndDate = () => {
     const commitShort = process.env.HEAD_GIT_COMMIT_SHORT || "DEVELOPMENT";
     return commitShort;
   };
-  const currentTime = () => new Date().toISOString();
 
   return (
     <p className="text-center text-sm">
@@ -82,8 +81,7 @@ const BuildAndDate = () => {
         className="font-bold underline decoration-from-font decoration-solid	decoration-gray-300"
       >
         {currentBuildShort()}
-      </a>{" "}
-      ({currentTime()})
+      </a>
     </p>
   );
 };
